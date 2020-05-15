@@ -1,28 +1,139 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/css" href="stella2.css">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
-    h1 {
-      text-align: center;
+    body {
+      font-family: Arial, Helvetica, sans-serif;
     }
 
-    h2 {
-      text-align: center;
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
     }
 
-    p {
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
       text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: pink;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
     }
   </style>
 </head>
 
-<h1>Find Your Dog</h1>
-
-<h2>Introduction</h2>
-
 <body>
-  <p>The content of the body element is displayed in the browser window.</p>
+
+  <head>
+    <h1 id="title">
+      <span style="background-color:pink">Find Your Dog</span>
+    </h1>
+  </head>
+
+  <div class="navbar">
+
+    <a href="#final">Home</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">Hair
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Long Hair</a>
+        <a href="#">Short Hair</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Hair Shedding
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Severe</a>
+        <a href="#">Mild</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Size
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Small</a>
+        <a href="#">Medium</a>
+        <a href="#">Large</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Character
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Introverted</a>
+        <a href="#">Extrovert</a>
+      </div>
+    </div>
+
+  </div>
+
+  <h3 id="pi" style="background-color:pink">The Purpose of the Site</h3>
+  <p id="jj">It is a site about dog breeds. As a person who loves dogs a lot, my purpose of the site is to let people learn more about the characteristics, characters, and habits of different breeds of dogs before they adopt or buy them. So that people can choose the breed of dog that best fits them. It not only maximizes happiness for dog owners but also can greatly reduce the probability of dog abandonment.</p>
+
+  <h3 id="pi" style="background-color:pink">The Inspiration for the Site</h3>
+  <p id="jj">What inspired me to go with this idea is my story of adopted my dog. A few years ago, I decided to adopt a dog. Because my family also has a cat, and my mom has rhinitis trouble, so the choice of dogs is limited. I need to choose a dog that can get along with a cat well and don't lose hair too much. But when I want to find more information about different dogs on the internet, I found that most of the sites are classify dogs based on their initial letter. I got trouble to find the right dog. I only can learn their information one by one according to the order of their names. It cost me a lot of time. Therefore, I want to develop a website to introduce the characteristics, characters, and habits of different breeds of dogs, and classify dogs base on that.</p>
+
 </body>
 
 </html>
