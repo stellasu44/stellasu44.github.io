@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="stella2.css">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: pink;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <head>
+    <h1 id="title">
+      <span style="background-color:pink">Dog of Destiny</span>
+    </h1>
+  </head>
+
+  <div class="navbar">
+
+    <a href="final.html">Home</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">Hair
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Long.html">Long Hair</a>
+        <a href="Short.html">Short Hair</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Hair Shedding
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Severe.html">Severe</a>
+        <a href="Mild.html">Mild</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Size
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Small.html">Small</a>
+        <a href="Medium.html">Medium</a>
+        <a href="Large.html">Large</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">The required amount of exercise
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Light.html">Light exercise</a>
+        <class="active" href="Heavy.html">Heavy exercise</class>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+<head>
+  <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Bedlington_Terrier">
+      <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/09202451/Bedlington-Terrier-standing-outdoors.jpg" alt="Bedlington Terrier" width="600" height="400">
+    </a>
+    <div class="desc">Bedlington Terrier</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Cocker_Spaniel">
+      <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/16105011/English-Cocker-Spaniel-Slide03.jpg" alt="Cocker Spaniel" width="600" height="400">
+    </a>
+    <div class="desc">Cocker Spaniel</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Poodle">
+      <img src="https://www.mercurynews.com/wp-content/uploads/2018/08/Poodle.jpg" alt="Poodle(Standard)" width="600" height="400">
+    </a>
+    <div class="desc">Poodle(Standard)</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Samoyed_(dog)">
+      <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/20122208/Samoyed-standing-in-the-forest.jpg" alt="Samoyed" width="600" height="400">
+    </a>
+    <div class="desc">Samoyed</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Alaskan_Malamute">
+      <img src="https://static01.nyt.com/images/2014/10/05/sports/DOG-CAMPUS/DOG-CAMPUS-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="Alaskan Malamute" width="600" height="400">
+    </a>
+    <div class="desc">Alaskan Malamute</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Siberian_Husky">
+      <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/26155623/Siberian-Husky-standing-outdoors-in-the-winter.jpg" alt="Siberian Husky" width="600" height="400">
+    </a>
+    <div class="desc">Siberian Husky</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/German_Shepherd">
+      <img src="https://usercontent1.hubstatic.com/12787384.jpg" alt="German Shepherd" width="600" height="400">
+    </a>
+    <div class="desc">German Shepherd</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Golden_Retriever">
+      <img src="https://cdn1-www.dogtime.com/assets/uploads/gallery/golden-retriever-dogs-and-puppies/golden-retriever-dogs-puppies-1.jpg" alt="Golden Retriever" width="600" height="400">
+    </a>
+    <div class="desc">Golden Retriever</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Shiba_Inu">
+      <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/26114711/Shiba-Inu-standing-in-profile-outdoors.jpg" alt="Shiba Inu" width="600" height="400">
+    </a>
+    <div class="desc">Shiba Inu</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Collie">
+      <img src="https://www.kingstonvetclinic.com/wp-content/uploads/sites/50/2019/11/shutterstock_593634296.jpg" alt="Collie" width="600" height="400">
+    </a>
+    <div class="desc">Collie</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Welsh_Corgi">
+      <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/14112506/Pembroke-Welsh-Corgi-standing-outdoors-in-the-fall.jpg" alt="Welsh Corgi" width="600" height="400">
+    </a>
+    <div class="desc">Welsh Corgi</div>
+  </div>
+
+</body>
+
+</html>
