@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="stella2.css">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: pink;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <head>
+    <h1 id="title">
+      <span style="background-color:pink">Dog of Destiny</span>
+    </h1>
+  </head>
+
+  <div class="navbar">
+
+    <a href="final.html">Home</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">Hair
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Long.html">Long Hair</a>
+        <a href="Short.html">Short Hair</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Hair Shedding
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Severe.html">Severe</a>
+        <a href="Mild.html">Mild</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Size
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <class="active" href="Small.html">Small</class>
+        <a href="Medium.html">Medium</a>
+        <a href="Large.html">Large</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">The required amount of exercise
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Light.html">Light exercise</a>
+        <a href="Heavy.html">Heavy exercise</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+<head>
+  <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Chinese_Crested_Dog">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/IndyStands.jpg" alt="Chinese Crested" width="600" height="400">
+    </a>
+    <div class="desc">Chinese Crested</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Yorkshire_Terrier">
+      <img src="https://petcosset.com/wp-content/uploads/2019/03/dog-5037931_1920.jpg" alt="Yorkshire Terrier" width="600" height="400">
+    </a>
+    <div class="desc">Yorkshire Terrier</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/West_Highland_White_Terrier">
+      <img src="https://thehappypuppysite.com/wp-content/uploads/2017/07/Copy-of-Westie-A-Guide-To-The-West-Highland-White-Terrier-HP-long.jpg" alt="West Highland White Terrier" width="600" height="400">
+    </a>
+    <div class="desc">West Highland White Terrier</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Pug">
+      <img src="https://www.selectadogbreed.com/media/1068/pug_adult.jpg" alt="Pug" width="600" height="400">
+    </a>
+    <div class="desc">Pug</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Cocker_Spaniel">
+      <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/16105011/English-Cocker-Spaniel-Slide03.jpg" alt="Cocker Spaniel" width="600" height="400">
+    </a>
+    <div class="desc">Cocker Spaniel</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Papillon_(dog)">
+      <img src="https://cdn.akc.org/content/article-body-image/happy_pap.jpg" alt="Papillon" width="600" height="400">
+    </a>
+    <div class="desc">Papillon</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Bichon_Frise">
+      <img src="https://www.rover.com/blog/wp-content/uploads/2019/04/small-dog-3512586_1920.jpg" alt="Bichon Frise" width="600" height="400">
+    </a>
+    <div class="desc">Bichon Frise</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Pomeranian_(dog)">
+      <img src="https://www.thesprucepets.com/thmb/MJ--9BJULRDvodDrmrqCxzYYIy4=/3504x2336/filters:fill(auto,1)/Pomeranian-GettyImages-1014940472-a6ba0030958a4bbba0eee3e982ee9bc6.jpg" alt="Pomeranian" width="600" height="400">
+    </a>
+    <div class="desc">Pomeranian</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Shiba_Inu">
+      <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/26114711/Shiba-Inu-standing-in-profile-outdoors.jpg" alt="Shiba Inu" width="600" height="400">
+    </a>
+    <div class="desc">Shiba Inu</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Welsh_Corgi">
+      <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/14112506/Pembroke-Welsh-Corgi-standing-outdoors-in-the-fall.jpg" alt="Welsh Corgi" width="600" height="400">
+    </a>
+    <div class="desc">Welsh Corgi</div>
+  </div>
+  
+
+</body>
+
+</html>
